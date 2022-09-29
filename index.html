@@ -1,134 +1,172 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
+    <title>Studia</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>HomeWork</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-            <nav>
-                <a href="./index.html">WebStudio</a>
-            <ul>  
-                <li>
-                    <a href="#">Студія</a>
-                </li>
-                <li>
-                    <a href="#">Портфоліо</a>
-                </li>
-                <li>
-                    <a href="#">Контакти</a>
-                </li>
-            </ul>
-         </nav>
-         <ul>
-            <li>
-                <a href="info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="+380961111111">+38 096 111 11 11</a>
-            </li>
-         </ul>
+      <a class="logo link" href="./index.html"><span>Web</span> <span>Studio</span> </a>
+      <nav>
+        <ul class="box-nav">
+          <li>
+            <a class="link" href="#">Студія</a>
+          </li>
+          <li>
+            <a class="link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li>
+            <a class="link" href="#">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="contacts">
+        <li>
+          <a class="link_contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a class="link_contact link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
-    <main> 
-        <!-- section1 -->
-        <section> 
-                <h1>Ефективні рішення для вашого бізнесу</h1>
-                <button type="button">Замовити послугу</button>
-        </section>
-        <!-- section2 -->
-        <section>
-            <h2>Наші переваги</h2>
-            <ul>
-                <li>
-                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-                <li>
-                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
-                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-
-                </li>
-                <li>
-                    <h3>ПЛАНУВАННЯ</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-                </li>
-                <li>
-                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </li>
-            </ul>
-        </section>
-        <!-- section3 -->
-        <section>
-            <h2>Чим ми займаємося</h2>
-                <ul>
-                    <li>
-                        <img src="./imeges/section3/box1.jpg" alt="Розробник пише код"
-                        width="370">
-                    </li>
-                    <li>
-                        <img src="./imeges/section3/box2.jpg" alt="Піключає телефон до комп'ютера"
-                        width="370">
-                    </li>
-                    <li>
-                        <img src="./imeges/section3/box3.jpg" alt="Малює на планшеті"
-                        width="370">
-                    </li>
-                </ul>
-        </section>
-        <!-- section4 -->
-        <section>
-            <h2>Наша команда</h2>
-                <ul>
-                    <li>
-                        <img src="./imeges/section4/product-designer.jpg" alt="Фото дизайнера продукту"
-                        width="270">
-                        <h3>Ігор Дем'яненко</h3>
-                        <p>Product Designer</p>
-                    </li>
-                    <li>
-                        <img src="./imeges/section4/fronted-develeper.jpg" alt="Фото фронтед розробника"
-                        width="270">
-                        <h3>Ольга Рєпіна</h3>
-                        <p>Frontend Developer</p>
-                    </li>
-                    <li>
-                        <img src="./imeges/section4/marketing.jpg" alt="Фото маркетолога"
-                        width="270">
-                        <h3>Микола Тарасов</h3>
-                        <p>Marketing</p>
-                    </li>
-                    <li>
-                        <img src="./imeges/section4/ui-designer.jpg" alt="Фото дизайнера"
-                        width="270">
-                        <h3>Михайло Єрмаков</h3>
-                        <p>UI Designer</p>
-                    </li>
-                </ul>
-        </section>
+    <main>
+      <!-- section1 -->
+      <section class="section-1">
+        <h1 class="main-text">Ефективні рішення для вашого бізнесу</h1>
+        <button class="main-button" type="button">Замовити послугу</button>
+      </section>
+      <!-- section2 -->
+      <section>
+        <h2 class="visually-hidden">Наші переваги</h2>
+        <ul class="benefits">
+          <li>
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="text-description">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li>
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="text-description">
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li>
+            <h3>ПЛАНУВАННЯ</h3>
+            <p class="text-description">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li>
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="text-description">
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- section3 -->
+      <section>
+        <h2>Чим ми займаємося</h2>
+        <ul>
+          <li>
+            <img
+              src="./imeges/section3/box1.jpg"
+              alt="Розробник пише код"
+              width="370"
+            />
+          </li>
+          <li>
+            <img
+              src="./imeges/section3/box2.jpg"
+              alt="Піключає телефон до комп'ютера"
+              width="370"
+            />
+          </li>
+          <li>
+            <img
+              src="./imeges/section3/box3.jpg"
+              alt="Малює на планшеті"
+              width="370"
+            />
+          </li>
+        </ul>
+      </section>
+      <!-- section4 -->
+      <section class="section4">
+        <h2>Наша команда</h2>
+        <ul>
+          <li class="team">
+            <img
+              src="./imeges/section4/product-designer.jpg"
+              alt="Фото дизайнера продукту"
+              width="270"
+            />
+            <h3>Ігор Дем'яненко</h3>
+            <p class="text-description">Product Designer</p>
+          </li>
+          <li class="team">
+            <img
+              src="./imeges/section4/fronted-develeper.jpg"
+              alt="Фото фронтед розробника"
+              width="270"
+            />
+            <h3>Ольга Рєпіна</h3>
+            <p class="text-description">Frontend Developer</p>
+          </li>
+          <li class="team">
+            <img
+              src="./imeges/section4/marketing.jpg"
+              alt="Фото маркетолога"
+              width="270"
+            />
+            <h3>Микола Тарасов</h3>
+            <p class="text-description">Marketing</p>
+          </li>
+          <li class="team">
+            <img
+              src="./imeges/section4/ui-designer.jpg"
+              alt="Фото дизайнера"
+              width="270"
+            />
+            <h3>Михайло Єрмаков</h3>
+            <p class="text-description">UI Designer</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <!-- footer -->
-    <footer>
-        <a href="./index.html">WebStudio</a>
-        <address>
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-                <li>
-                    <a href="https://www.google.com.ua/maps/search/%D0%BC.+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%BF%D1%80-%D1%82+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26/@50.4265807,30.5361971,17z?hl" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a>
-                </li>
-            </ul>
-        </address>
+    <footer class="footer">
+      <a class="logo link " href="./index.html"><span>Web</span> <span class="logo-footer">Studio</span> </a>
+      <address>
+        <ul>
+          <li>
+            <a class="link-footer"
+              href="https://www.google.com.ua/maps/search/%D0%BC.+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%BF%D1%80-%D1%82+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26/@50.4265807,30.5361971,17z?hl"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
+          <li>
+            <a class="link_contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="link_contact" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </address>
     </footer>
-</body>
+  </body>
 </html>
-<html>
-
-</html>
+<html></html>
