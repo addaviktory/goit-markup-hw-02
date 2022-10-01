@@ -9,7 +9,6 @@ body {
   font-family: "Roboto";
   background-color: var(--white);
   color: var(--black);
-  font-weight: 400;
 }
 
 /* -----------------------------------Common-------------------------- */
@@ -50,7 +49,7 @@ ul.block-style {
   list-style: none;
 }
 button.main-button {
-  background-color: var(--blue);
+  background-color: #338ABB;
   color: var(--white);
   border: none;
   border-radius: 4px;
@@ -62,11 +61,16 @@ button.main-button {
   cursor: pointer;
 }
 button.main-button:hover {
-  background-color: #338ABB;
+  background-color: #188CE8;
+}
+button.main-button:focus {
+  background-color: #188CE8;
 }
 button.border-button {
   background-color: var(--white);
   cursor: pointer;
+  border: none;
+  background-color: #F5F4FA;;
 }
 button.border-button.active {
   background-color: var(--blue);
@@ -90,19 +94,20 @@ header .contacts {
 }
 
 /*------------------------------------ Main ----------------------------*/
-main section.section-1 {
-  background-color: var(--black);
+main section.section-hero {
+  background-color: #2F303A;
 }
-main section.section-1 h1 {
+main section.section-hero h1 {
   color: var(--white);
   font-size: 44px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  border: none;
 }
-main section.section-1 ul {
+main section.section-hero ul {
   color: var(--black);
 }
-main section.section-4 {
+main section.section-team {
   background-color: #f5f4fa;
   font-family: "Roboto";
   font-style: normal;
@@ -110,7 +115,7 @@ main section.section-4 {
   font-size: 16px;
   line-height: 1.18;
 }
-main section.section-4 ul > li {
+main section.section-team ul > li {
   background-color: var(--white);
 }
 
