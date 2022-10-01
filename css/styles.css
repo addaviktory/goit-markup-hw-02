@@ -147,7 +147,7 @@ main section.section-team ul > li {
 
 /* ------------------------------------footer-------------------------- */
 footer.footer {
-  background-color: #2f303a;
+  background-color: var(--light-black);
 }
 footer .logo {
   color: var(--white);
