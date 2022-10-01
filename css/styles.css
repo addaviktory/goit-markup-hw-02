@@ -35,7 +35,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 p.text-description {
@@ -147,7 +147,7 @@ main section.section-team ul > li {
 
 /* ------------------------------------footer-------------------------- */
 footer.footer {
-  background-color: #2f303a;
+  background-color: var(--light-black);
 }
 footer .logo {
   color: var(--white);
