@@ -26,20 +26,23 @@ body {
 }
 .text-title{
   font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
-.text-description-offers{
+.description-title{
   font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 p.text-description {
   color: var(--gray);
+}
+.porfolio-description{
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.87;
 }
 .hidden {
   display: none;
@@ -67,7 +70,7 @@ ul.block-style {
   list-style: none;
 }
 button.main-button {
-  background-color: var(--dark-blue);
+  background-color: var(--light_blue);
   color: var(--white);
   border: none;
   border-radius: 4px;
@@ -79,15 +82,16 @@ button.main-button {
   cursor: pointer;
 }
 button.main-button:hover {
-  background-color: var(--light_blue);
+  background-color: var(--dark-blue);
 }
 button.main-button:focus {
-  background-color: var(--light_blue);
+  background-color: var(--dark-blue);
 }
 button.border-button {
   background-color: var(--white);
   cursor: pointer;
   border: none;
+  font-family: inherit;
   background-color: var(--light-white);
 }
 button.border-button.active {
@@ -118,6 +122,7 @@ main section.section-hero {
 main section.section-hero h1 {
   color: var(--white);
   font-size: 44px;
+  line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   border: none;
@@ -125,6 +130,7 @@ main section.section-hero h1 {
 main section.section-hero ul {
   color: var(--black);
 }
+
 main section.section-advantage h3{
   font-style: normal;
   font-weight: 700;
@@ -133,8 +139,11 @@ main section.section-advantage h3{
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-main section.section-team h3 {
+main section.section-team{
   background-color: var(--light-white);
+}
+main section.section-team h3 {
+  background-color: var(--white);
   font-style: normal;
   font-family: 'Roboto';
   font-weight: 500;
